@@ -31,6 +31,16 @@
         ]
       },
       {
+        "tag":"Purpose",
+        "patterns":["What is your purpose?", "Why were you built?"],
+        "responses":["I was built as a part of internship project o   f my creator.\n\nI provide first-aid tips."]
+      },
+      {
+        "tag":"Info",
+        "patterns":["What first aids can you tell?"],
+        "responses":["I can provide first-aid info. on:\n\n* Burns\n\n* Blisters\n\n* Bruises\n\n* Choking\n\n* Fever\n\n* Fracture\n\n* Heart Attack"]
+      },
+      {
         "tag": "goodbye",
         "patterns": ["Bye", "See you later", "Goodbye"],
         "responses": [
@@ -47,7 +57,7 @@
       {
           "tag": "burns",
           "patterns":["I got burns","I got burn injury", "burns"],
-          "responses":["Try cooling all burns with tepid to cool water", "Do not apply ice, ointments, butter or other 'home remedies'"]
+          "responses":["* Try cooling all burns with tepid to cool water.\n\n* Do not apply ice, ointments, butter or other 'home remedies'"]
       },
       {
         "tag": "burns2",
@@ -57,7 +67,7 @@
       {
         "tag": "blisters",
         "patterns":["I got blisters","I got blister injury", "blisters"],
-        "responses":["Apply an ointment such as petroleum jelly to the blister and cover it with a nonstick gauze bandage. \nIf a rash appears, stop using the ointment. Follow-up care. Check the area every day for infection."]
+        "responses":["* Apply an ointment such as petroleum jelly to the blister and cover it with a nonstick gauze bandage.\n\n* If a rash appears, stop using the ointment. Follow-up care. Check the area every day for infection."]
       },
       {
         "tag": "blisters2",
@@ -67,7 +77,7 @@
       {
         "tag": "Bruise",
         "patterns":["I got bruises","I got bruise injury", "bruises"],
-        "responses":["Rest the bruised area, if possible.\nIce the bruise with an ice pack wrapped in a towel.\nLeave it in place for 10 to 20 minutes.\nRepeat several times a day for a day or two as needed.\nCompress the bruised area if it is swelling, using an elastic bandage. Don't make it too tight.\nElevate the injured area."]
+        "responses":["* Rest the bruised area, if possible.\n\n* Ice the bruise with an ice pack wrapped in a towel.\n\n* Leave it in place for 10 to 20 minutes.\nRepeat several times a day for a day or two as needed.\n\n* Compress the bruised area if it is swelling, using an elastic bandage. Don't make it too tight.\n\n* Elevate the injured area."]
       },
       {
         "tag": "Bruise2",
@@ -112,7 +122,17 @@
       {
         "tag": "fever2",
         "patterns":["Anything else on fever", "More on fever"],
-        "responses":["Visit,  for more info", "Try, \nhttps://www.mayoclinic.org/first-aid/first-aid-fever/basics/art-20056685\nfor more information on fever."]
+        "responses":["Try, \nhttps://www.mayoclinic.org/first-aid/first-aid-fever/basics/art-20056685\nfor more information on fever."]
+      },
+      {
+        "tag": "Fracture",
+        "patterns":["I got a Fracture ","I got a Fracture injury", "Fracture"],
+        "responses":["Don't move the person except if necessary to avoid further injury.\n\nTake these actions immediately while waiting for medical help:\n\n* Stop any bleeding. Apply pressure to the wound with a sterile bandage, a clean cloth or a clean piece of clothing.\n\n* Immobilize the injured area. Don't try to realign the bone or push a bone that's sticking out back in.\n\n* If you've been trained in how to splint and professional help isn't readily available, apply a splint to the area above and below the fracture sites.\n\n* Padding the splints can help reduce discomfort.\n\nApply ice packs to limit swelling and help relieve pain. \nDon't apply ice directly to the skin. Wrap the ice in a towel, piece of cloth or some other material.\n\nTreat for shock. If the person feels faint or is breathing in short, rapid breaths,\n lay the person down with the head slightly lower than the trunk and, if possible, elevate the legs."]
+      },
+      {
+        "tag": "Fracture2",
+        "patterns":["Anything else on Fracture", "More on Fracture"],
+        "responses":["Visit,  for more info", "Try, \nhttps://www.mayoclinic.org/first-aid/first-aid-fractures/basics/art-20056641\nfor more information on fractures."]
       },
       {
         "tag": "",
@@ -125,27 +145,16 @@
         "responses":["Visit,  for more info", "Try, \n\nfor more information on ."]
       },
       {
-        "tag": "",
-        "patterns":["I got ","I got  injury", ""],
-        "responses":[""]
+        "tag": "Heart Attack",
+        "patterns":["Someone is having a heart attack","heart attack"],
+        "responses":["Call emergency services.\n\nDo the following while waiting:\n\n* Chew and swallow an aspirin\n\n* Take nitroglycerin if prescribed\n\n* Begin CPR if the person is unconscious\n\n* If an automated external defibrillator (AED) is immediately available and the person is unconscious, follow the device instructions for using it"]
       },
       {
-        "tag": "2",
-        "patterns":["Anything else on ", "More on "],
-        "responses":["Visit,  for more info", "Try, \n\nfor more information on ."]
-      },
-      {
-        "tag": "",
-        "patterns":["I got ","I got  injury", ""],
-        "responses":[""]
-      },
-      {
-        "tag": "2",
-        "patterns":["Anything else on ", "More on "],
-        "responses":["Visit,  for more info", "Try, \n\nfor more information on ."]
+        "tag": "Heart Attack2",
+        "patterns":["Anything else on Heart Attack", "More on Heart Attack"],
+        "responses":["Visit,  for more info", "Try, \nhttps://www.mayoclinic.org/first-aid/first-aid-heart-attack/basics/art-20056679\nfor more information on Heart Attack."]
       }
       
 
-      
     ]
   }
