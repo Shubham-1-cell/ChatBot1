@@ -42,13 +42,13 @@
         "responses":["Visit, https://www.rwjbh.org/saint-barnabas-medical-center/treatment-care/the-burn-center/community-outreach/first-aid-and-emergency-care/ for more info", "Try, https://www.mayoclinic.org/first-aid/first-aid-burns/basics/art-20056649 for more info."]
       },
       {
-        "tag": "burns",
-        "patterns":["I got burns","I got burn injury", "burns"],
-        "responses":["Try cooling all burns with tepid to cool water", "Do not apply ice, ointments, butter or other 'home remedies'"]
+        "tag": "blisters",
+        "patterns":["I got blisters","I got blisters injury", "blisters"],
+        "responses":["Apply an ointment such as petroleum jelly to the blister and cover it with a nonstick gauze bandage. \n If a rash appears, stop using the ointment. Follow-up care. Check the area every day for infection.", "Do not apply ice, ointments, butter or other 'home remedies'"]
     },
     {
-      "tag": "burns2",
-      "patterns":["Anything else on burns", "More on burns"],
+      "tag": "blisters2",
+      "patterns":["Anything else on blisters", "More on blisters"],
       "responses":["Visit, https://www.rwjbh.org/saint-barnabas-medical-center/treatment-care/the-burn-center/community-outreach/first-aid-and-emergency-care/ for more info", "Try, https://www.mayoclinic.org/first-aid/first-aid-burns/basics/art-20056649 for more info."]
     }
       
