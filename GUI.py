@@ -17,16 +17,16 @@ class ChatApplication:
         self.window.configure(width=470, height=500, bg="#000000")
 
         #head lable
-        head_lable = Label(self.window, text="Chat_Bot_GUI_Trails", font=("Helvetica", 12, 'bold'), fg="#f0f0f0", bg="#000000", pady=10)
+        head_lable = Label(self.window, text="Sam The ChatBot", font=("Comic Sans MS", 12, 'bold'), fg="#C0C0C0", bg="#696969", pady=10)
         head_lable.place(relwidth=1)
 
         #Divider
 
-        line = Label(self.window, width = 450, bg="#f0f0f0")
+        line = Label(self.window, width = 450, bg="#C0C0C0")
         line.place(relwidth=1, rely=0.07, relheight=0.012)
 
         #text widget
-        self.text_widget = Text(self.window, fg="#f0f0f0", bg="#000000",width=20,height=2 ,font=("Comic Sans MS", 12), pady=10)
+        self.text_widget = Text(self.window, fg="#C0C0C0", bg="#000000",width=20,height=2 ,font=("Comic Sans MS", 12), pady=10)
         self.text_widget.place(relheight=0.745, relwidth=1, rely=0.08)
         self.text_widget.configure(cursor="arrow", state=DISABLED)
 
