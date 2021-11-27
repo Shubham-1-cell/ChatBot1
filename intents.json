@@ -44,7 +44,7 @@
       {
         "tag": "blisters",
         "patterns":["I got blisters","I got blisters injury", "blisters"],
-        "responses":["Apply an ointment such as petroleum jelly to the blister and cover it with a nonstick gauze bandage. \n If a rash appears, stop using the ointment. Follow-up care. Check the area every day for infection.", "Do not apply ice, ointments, butter or other 'home remedies'"]
+        "responses":["Apply an ointment such as petroleum jelly to the blister and cover it with a nonstick gauze bandage. \n If a rash appears, stop using the ointment. Follow-up care. Check the area every day for infection."]
     },
     {
       "tag": "blisters2",
