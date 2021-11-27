@@ -51,7 +51,7 @@ class ChatApplication:
         # Send button
         send_button = Button(bottom_lable, text="Send", bg="#008b8b", fg="#000000", font=("Comic Sans MS", 12, 'bold'), command=lambda: self._on_enter_pressed(None))
         send_button.place(relwidth=0.228, relheight=0.06, relx=0.765, rely=0.003)
-
+        
 
 
     def _on_enter_pressed(self, event):

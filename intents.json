@@ -43,14 +43,34 @@
       },
       {
         "tag": "blisters",
-        "patterns":["I got blisters","I got blisters injury", "blisters"],
-        "responses":["Apply an ointment such as petroleum jelly to the blister and cover it with a nonstick gauze bandage. \n If a rash appears, stop using the ointment. Follow-up care. Check the area every day for infection."]
-    },
-    {
-      "tag": "blisters2",
-      "patterns":["Anything else on blisters", "More on blisters"],
-      "responses":["Visit, https://www.rwjbh.org/saint-barnabas-medical-center/treatment-care/the-burn-center/community-outreach/first-aid-and-emergency-care/ for more info", "Try, https://www.mayoclinic.org/first-aid/first-aid-burns/basics/art-20056649 for more info."]
-    }
+        "patterns":["I got blisters","I got blister injury", "blisters"],
+        "responses":["Apply an ointment such as petroleum jelly to the blister and cover it with a nonstick gauze bandage. \nIf a rash appears, stop using the ointment. Follow-up care. Check the area every day for infection."]
+      },
+      {
+        "tag": "blisters2",
+        "patterns":["Anything else on blisters", "More on blisters"],
+        "responses":["Visit, https://www.mayoclinic.org/first-aid/first-aid-blisters/basics/art-20056691 for more info", "Try, \nhttps://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj384uGybj0AhW26XMBHYYxDJ0QFnoECBcQAQ&url=https%3A%2F%2Fwww.skinsight.com%2Fskin-conditions%2Ffirst-aid%2Ffirst-aid-blisters&usg=AOvVaw2WQ-yHBrvWWCw6TFNhqmt3 \nfor more information on blisters."]
+      },
+      {
+        "tag": "Bruise",
+        "patterns":["I got bruises","I got bruise injury", "bruises"],
+        "responses":["Rest the bruised area, if possible.\nIce the bruise with an ice pack wrapped in a towel.\nLeave it in place for 10 to 20 minutes.\nRepeat several times a day for a day or two as needed.\nCompress the bruised area if it is swelling, using an elastic bandage. Don't make it too tight.\nElevate the injured area."]
+      },
+      {
+        "tag": "Bruise2",
+        "patterns":["Anything else on bruises", "More on bruises"],
+        "responses":["Visit, https://www.mayoclinic.org/first-aid/first-aid-bruise/basics/art-20056663 for more info", "Try, \nhttps://www.skinsight.com/skin-conditions/first-aid/first-aid-bruises \nfor more information on blisters."]
+      },
+      {
+        "tag": "",
+        "patterns":["I got ","I got  injury", ""],
+        "responses":[""]
+      },
+      {
+        "tag": "2",
+        "patterns":["Anything else on ", "More on "],
+        "responses":["Visit,  for more info", "Try, \n\nfor more information on blisters."]
+      }
       
 
       
