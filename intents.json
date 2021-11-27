@@ -18,6 +18,19 @@
         ]
       },
       {
+        "tag":"Creator",
+        "patterns":[
+          "Who created you",
+          "Who is the creator",
+          "Who is the creator of you",
+          "Who is the creator of this bot"
+        ],
+        "responses":[
+          "I was created by Shubham Kumar Singh",
+          "My creator is Shubham Kumar Singh"
+        ]
+      },
+      {
         "tag": "goodbye",
         "patterns": ["Bye", "See you later", "Goodbye"],
         "responses": [
@@ -62,6 +75,46 @@
         "responses":["Visit, https://www.mayoclinic.org/first-aid/first-aid-bruise/basics/art-20056663 for more info", "Try, \nhttps://www.skinsight.com/skin-conditions/first-aid/first-aid-bruises \nfor more information on blisters."]
       },
       {
+        "tag": "Choking",
+        "patterns":["I am Choking ", "Choking"],
+        "responses":["Alternate between 5 back blows and 5 abdominal thrusts,\nuntil the blockage is dislodged"]
+      },
+      {
+        "tag": "Back blows",
+        "patterns":["What are back blows?", "back blows?"],
+        "responses":["Stand to the side and just behind a choking adult. For a child, kneel down behind. Place one arm across the person's chest for support.\nBend the person over at the waist so that the upper body is parallel with the ground.\nDeliver five separate back blows between the person's shoulder blades with the heel of your hand."]
+      },
+      {
+        "tag": "abdominal thrusts",
+        "patterns":["What are abdominal thrusts?", "abdominal thrusts?"],
+        "responses":["Abdominal thrusts is an emergency technique to help clear someone's airway.\nThe procedure is done on someone who is choking and also conscious.\nMost experts do not recommend abdominal thrusts for infants less than 1 year old."]
+      },
+      {
+        "tag": "Choking2",
+        "patterns":["Anything else on ", "More on "],
+        "responses":["Visit,  for more info", "Try, \nhttps://www.mayoclinic.org/first-aid/first-aid-choking/basics/art-20056637\nfor more information on choking."]
+      },
+      {
+        "tag": "fever",
+        "patterns":["I got fever","I am suffering from a fever", "fever"],
+        "responses":["Is there a child suffering from fever or an adult?"]
+      },
+      {
+        "tag": "fever adult",
+        "patterns":["An adult is suffering from a fever", "adult fever"],
+        "responses":["Adults with fevers of 103 F (39.4 C) or higher will generally look and act sick. The main goal of treatment is to relieve discomfort and help you get rest.\n\nTo treat a fever at home:\n\nDrink plenty of fluids to stay hydrated.\n\nDress in lightweight clothing.\n\nUse a light blanket if you feel chilled, until the chills end.\n\nTake acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin IB, others).\nFollow the directions on the label.\n\nIf situation worsens seek medical help."]
+      },
+      {
+        "tag": "fever child",
+        "patterns":["A child is suffering from a fever", "child fever"],
+        "responses":["Children with relatively high fevers may not look or act particularly sick. Treating a fever depends on the degree of discomfort. If your child is uncomfortable or restless.\n\nThese home care strategies may help:\n\nEncourage your child to drink fluids\n\nDress your child in lightweight clothing.\n\nUse a light blanket if your child feels chilled, until the chills end.\n\nDon't give aspirin to children or teenagers.\n\nDon't give an infant any type of pain reliever until after you've contacted a doctor and your child has been evaluated.\n\nIf your child is 6 months old or older, give your child acetaminophen (Tylenol, others) or ibuprofen (Advil, Motrin, others). Read the label carefully for proper dosing.\n\nIf situation worsens seek medical help."]
+      },
+      {
+        "tag": "fever2",
+        "patterns":["Anything else on fever", "More on fever"],
+        "responses":["Visit,  for more info", "Try, \nhttps://www.mayoclinic.org/first-aid/first-aid-fever/basics/art-20056685\nfor more information on fever."]
+      },
+      {
         "tag": "",
         "patterns":["I got ","I got  injury", ""],
         "responses":[""]
@@ -69,7 +122,27 @@
       {
         "tag": "2",
         "patterns":["Anything else on ", "More on "],
-        "responses":["Visit,  for more info", "Try, \n\nfor more information on blisters."]
+        "responses":["Visit,  for more info", "Try, \n\nfor more information on ."]
+      },
+      {
+        "tag": "",
+        "patterns":["I got ","I got  injury", ""],
+        "responses":[""]
+      },
+      {
+        "tag": "2",
+        "patterns":["Anything else on ", "More on "],
+        "responses":["Visit,  for more info", "Try, \n\nfor more information on ."]
+      },
+      {
+        "tag": "",
+        "patterns":["I got ","I got  injury", ""],
+        "responses":[""]
+      },
+      {
+        "tag": "2",
+        "patterns":["Anything else on ", "More on "],
+        "responses":["Visit,  for more info", "Try, \n\nfor more information on ."]
       }
       
 
