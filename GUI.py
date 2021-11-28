@@ -17,7 +17,7 @@ class ChatApplication:
         self.window.configure(width=470, height=500, bg="#000000")
 
         #head lable
-        head_lable = Label(self.window, text="Sam The ChatBot", font=("Comic Sans MS", 12, 'bold'), fg="#C0C0C0", bg="#696969", pady=10)
+        head_lable = Label(self.window, text="MedBoy", font=("Comic Sans MS", 12, 'bold'), fg="#000000", bg="#008b8b", pady=10)
         head_lable.place(relwidth=1)
 
         #Divider
