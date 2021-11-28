@@ -33,7 +33,7 @@
       {
         "tag":"Purpose",
         "patterns":["What is your purpose?", "Why were you built?"],
-        "responses":["I was built as a part of internship project o   f my creator.\n\nI provide first-aid tips."]
+        "responses":["I was built as a part of internship project of my creator.\n\nI provide first-aid tips."]
       },
       {
         "tag":"Info",
