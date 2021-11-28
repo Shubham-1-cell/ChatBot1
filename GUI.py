@@ -63,7 +63,7 @@ class ChatApplication:
             return
 
         self.msg_entry.delete(0, END)
-        msg1 = f"{sender}: {msg}\n\n"
+        msg1 = f"{sender}: {msg}\n\n\n"
         self.text_widget.configure(cursor="arrow", state=NORMAL)
         self.text_widget.insert(END, msg1)
         self.text_widget.configure(cursor="arrow", state=DISABLED)
